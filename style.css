@@ -1,0 +1,74 @@
+*{
+    text-decoration: none;
+}
+body{
+    background-color: black;
+    color: white;
+}
+.perfil{
+    padding: 10px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40px;
+}
+.perfil img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 3px solid blueviolet;
+}
+.links{
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+li{
+   list-style-type: none;
+   margin: 20px;
+}
+button{
+    color: white;
+    background-color: transparent;
+    width: 200px;
+    height: 50px;
+    border-color: blueviolet;
+    border-style: groove;
+    border-radius: 20px;
+    font-size: 15px;
+}
+button:hover{
+    transform: scale(1.1);
+    opacity: 100%;
+    color: blueviolet;
+}
+.txt{
+    padding: 2px;
+    position: absolute;
+    top:70%;        
+}
+h1{
+    margin-left: 63px;
+}
+footer{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-left: 35px;
+}
+footer img{
+    width: 30px;
+    margin: 15px;
+}
+.yt:hover{
+    transform: scale(1.5);
+    color: blueviolet;
+}
+.insta:hover{
+    transform: scale(1.5);
+}
+.tt:hover{
+    transform: scale(1.5);
+}
